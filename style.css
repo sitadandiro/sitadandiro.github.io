@@ -112,6 +112,7 @@ a:hover {
 }
 .header {
 	height: 65px;
+	display: flex;
 	background-color: #C29467;
 	width: 100%;
 	justify-content: space-around;
