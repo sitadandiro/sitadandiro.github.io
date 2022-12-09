@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Wedding</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="header">
+			<div class="satu"><h2>THE WEDING</h2></div>
+		</div>
+	</header>
+	<center>
+          <video width="85%" height="90%" loop muted autoplay="autoplay">
+          <source src="img/presentation1.mp4"> <!-- random image -->
+	</center>
+	<center>
+          <video width="85%" height="90%" loop muted autoplay="autoplay">
+          <source src="img/presentation2.mp4"> <!-- random image -->
+	</center>
+	<center>
+          <video width="85%" height="90%" loop muted autoplay="autoplay">
+          <source src="img/presentation3.mp4"> <!-- random image -->
+	</center>
+	<center>
+          <video width="85%" height="90%" loop muted autoplay="autoplay">
+          <source src="img/presentation4.mp4"> <!-- random image -->       
+	</center>
+	<section >
+              <button type="submit" id="submit">
+                <a href="https://www.google.com/maps/place/7%C2%B034'20.3%22S+109%C2%B005'52.5%22E/@-7.5723178,109.0957242,17z/data=!4m13!1m7!3m6!1s0x0:0xf3d4e43f9021bf77!2zN8KwMzQnMjAuMyJTIDEwOcKwMDUnNTIuNSJF!3b1!8m2!3d-7.5723178!4d109.0979129!3m4!1s0x0:0xf3d4e43f9021bf77!8m2!3d-7.5723178!4d109.0979129" target="_self">View Maps</a>
+              </button>
+      </section>
+	<center>
+          <video width="85%" height="90%" loop muted autoplay="autoplay">
+          <source src="img/presentation5.mp4"> <!-- random image -->
+	</center>
+	<center>
+          <video width="85%" height="90%" loop muted autoplay="autoplay">
+          <source src="img/presentation6.mp4"> <!-- random image -->
+	</center>
+	<div class="tampil" id="tampil">
+		<div class="tampil-body">
+			<div>
+				<h1>THE WEDDING INVITATION</h1>
+				<p>Tanpa mengurangi rasa hormat
+kami mengundang Bapak/Ibu/Saudara/i
+untuk menghadiri pernikahan kami
+</p>
+				<button onclick=" putarmusic()">BUKA UNDANGAN</button>
+			</div>
+		</div>
+	</div>
+	<script>
+		var a = document.getElementById('tampil');
+		function putarmusic(){
+			a.style.display = "none";
+			var audio = new Audio('Marry Your Daughter - Brian McKnight (animation).mp3');
+			audio.play();
+		}
+	</script>
+	<footer>
+		<div class="maul" id="maul">
+			<p>Copyright by Maul.Asyk</p>
+		</div>
+		<div class="musik" id="musik">
+			<p>Song : Marry Your Daughter - Brian McKnight</p>
+		</div>
+	
+</footer>
+</body>
+</html>
