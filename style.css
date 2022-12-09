@@ -111,8 +111,8 @@ a:hover {
 	color: white;
 }
 .header {
-	height: 65px;
-	display: flex;
+	height: 57px;
+	
 	background-color: #C29467;
 	width: 100%;
 	justify-content: space-around;
@@ -120,12 +120,12 @@ a:hover {
 }
 .header .satu h2 {
 	font-weight: bold;
-	margin-bottom: 7px;
+	text-align: center;
 }
 .header .satu {
 	width: 50%;
-	margin: auto 0;
-	padding-left: 100px;
+	padding-left: 95px;
+	padding-top: 10px
 }
 .header .dua {	
 	width: 50%;
