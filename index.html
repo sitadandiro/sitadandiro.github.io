@@ -6,7 +6,7 @@
 	<title>Wedding</title>
 	<link rel="stylesheet" href="style.css">
 </head>
-<body style="background-image:url(olivia-bauso-30UOqDM5QW0-unsplash.jpg)">
+<body>
 	<header>
 		<div class="header">
 			<div class="satu">
@@ -32,11 +32,6 @@
           <video width="78%" height="100%" loop muted autoplay="autoplay">
           <source src="img/Presentation4.mp4"> <!-- random image -->       
 	</center>
-	<section >
-              <button type="submit" id="submit">
-                <a href="https://www.google.com/maps/place/7%C2%B034'20.3%22S+109%C2%B005'52.5%22E/@-7.5723178,109.0957242,17z/data=!4m13!1m7!3m6!1s0x0:0xf3d4e43f9021bf77!2zN8KwMzQnMjAuMyJTIDEwOcKwMDUnNTIuNSJF!3b1!8m2!3d-7.5723178!4d109.0979129!3m4!1s0x0:0xf3d4e43f9021bf77!8m2!3d-7.5723178!4d109.0979129" target="_self">View Maps</a>
-              </button>
-      </section>
 	<center>
           <video width="78%" height="100%" loop muted autoplay="autoplay">
           <source src="img/Presentation5.mp4"> <!-- random image -->
@@ -45,18 +40,63 @@
           <video width="78%" height="100%" loop muted autoplay="autoplay">
           <source src="img/Presentation6.mp4"> <!-- random image -->
 	</center>
+	<br><br><br><br><br>
+	<div class="container">
+		<h2><span>Save Date</span>01 Jan 2023</h2>
+		<div class="countdown">
+			<div id="hari">NA</div>
+			<div id="jam">NA</div>
+			<div id="menit">NA</div>
+			<div id="detik">NA</div>
+		</div>
+	</div>
+	<br><br>
+	<section >
+              <button type="submit" id="submit">
+                <a href="https://www.google.com/maps/place/7%C2%B034'20.3%22S+109%C2%B005'52.5%22E/@-7.5723178,109.0957242,17z/data=!4m13!1m7!3m6!1s0x0:0xf3d4e43f9021bf77!2zN8KwMzQnMjAuMyJTIDEwOcKwMDUnNTIuNSJF!3b1!8m2!3d-7.5723178!4d109.0979129!3m4!1s0x0:0xf3d4e43f9021bf77!8m2!3d-7.5723178!4d109.0979129" target="_self">View Maps</a>
+              </button>
+      </section>
 	<div class="tampil" id="tampil">
 		<div class="tampil-body">
 			<div>
 				<h1>THE WEDDING INVITATION</h1>
 				<p>Tanpa mengurangi rasa hormat
-kami mengundang Bapak/Ibu/Saudara/i
-untuk menghadiri pernikahan kami
-</p>
+ 				   kami mengundang Bapak/Ibu/Saudara/i
+				   untuk menghadiri pernikahan kami
+				</p>
 				<button onclick=" putarmusic()">BUKA UNDANGAN</button>
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript">
+
+		var countDate = new Date('Jan 01 2023 08:00:00').getTime();
+
+		function newYear(){
+		var now = new Date().getTime();
+		gap = countDate - now;
+
+		var detik = 1000;
+		var menit = detik * 60;
+		var jam = menit * 60;
+		var hari = jam * 24;
+
+		var h = Math.floor(gap / (hari));
+		var j = Math.floor( (gap % (hari)) / (jam) );
+		var m = Math.floor( (gap % (jam))  / (menit) );
+		var d = Math.floor( (gap % (menit))  / (detik) );
+
+		document.getElementById('hari').innerText = h;
+		document.getElementById('jam').innerText = j;
+		document.getElementById('menit').innerText = m;
+		document.getElementById('detik').innerText = d;
+		}
+
+		setInterval( function(){
+			newYear();
+		}, 1000);
+
+        </script>
 	<script>
 		var a = document.getElementById('tampil');
 		function putarmusic(){
