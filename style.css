@@ -139,12 +139,12 @@ body {
 	box-shadow: 0px 1px 5px #ffffff;
 	cursor: pointer;
 	font: "Raleway SemiBold",sans-serif,15px;
-	height: 30px;
+	height: 35px;
 	margin: 0 auto;
 	margin-top: 2px;
 	margin-bottom: 5px;
 	transition: 0.25s;
-	width: 353px;
+	width: 383px;
 }
 
 #submit a{
