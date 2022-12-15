@@ -57,7 +57,7 @@ body {
 	height: 40px;
 	background: #ffad75;
 	font-size: 0.35em;
-	line-height: 40px;
+	line-height: 30px;
 	font-weight: 300;
 }
 .countdown #hari:before {
@@ -72,7 +72,6 @@ body {
 .countdown #detik:before {
 	content: 'Detik';
 }
-
 .tampil {
 	position: fixed;
 	top: 0;
@@ -93,18 +92,18 @@ body {
 	border-radius: 20px;
 	padding: 20px;
 	margin: auto;
-	width: 70%;
+	width: 50%;
 	background-color: white;
 }
 .tampil-body button {
+	border-radius: 20px;
+	padding: 20px;
 	cursor: pointer;
 	font-size: 1.1em;
 	text-align: center;
-	border-radius: 20px;
 	background-color: #DC143C;
 	border: 0;
 	margin-top: 20px;
-
 	color: white;
 	padding: 10px;
 }
@@ -188,11 +187,12 @@ a:hover {
 .header .satu h2 {
 	font-weight: bold;
 	text-align: center;
+	
 }
 .header .satu {
 	width: 50%;
 	padding-left: 95px;
-	padding-top: 10px
+	padding-top: 20px
 }
 .header .dua {	
 	width: 50%;
@@ -293,6 +293,7 @@ section .fotosamping {
 	background-color: #f8edeb;
 	text-align: center;
 	background-color: #C29467;
+	justify-content: space-around;
 }
 .contact h2{ 
 	padding-top: 50px;
