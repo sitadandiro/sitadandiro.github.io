@@ -59,6 +59,7 @@ body {
 	font-size: 0.35em;
 	line-height: 40px;
 	font-weight: 300;
+{
 .countdown #hari:before {
 	content: 'Hari';
 }
