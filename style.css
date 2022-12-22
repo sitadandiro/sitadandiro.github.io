@@ -45,7 +45,7 @@ body {
 	background: linear-gradient(#C29467, #ffca93);
 	color: #fff;
 	margin:0 10px;
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: 500;
 }
 .countdown div:before {
@@ -56,8 +56,8 @@ body {
 	width: 100%;
 	height: 40px;
 	background: #ffad75;
-	font-size: 0.35em;
-	line-height: 30px;
+	font-size: 0.55em;
+	line-height: 40px;
 	font-weight: 300;
 }
 .countdown #hari:before {
